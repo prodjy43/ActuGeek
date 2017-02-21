@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/font-awesome.css">
     </head>
 
-    <body>
+    <body class="admin">
         
         @yield('content')
 

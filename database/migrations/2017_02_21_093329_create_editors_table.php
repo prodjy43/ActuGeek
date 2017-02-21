@@ -21,6 +21,7 @@ class CreateEditorsTable extends Migration
             $table->string('forname');
             $table->string('password');
             $table->timestamps();
+            $table->rememberToken();
         });
     }
 

@@ -23,4 +23,10 @@ Route::group(['prefix' => 'admin'], function() {
 
     Route::get('/', 'adminController@index');
 
+    Route::post('/', 'adminController@store');
+
+    Route::get('/logout', 'adminController@logout')->middleware('auth');
+
+    Route::get('/home', 'adminController@home')->middleware('auth');
+
 });

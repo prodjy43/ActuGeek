@@ -17,7 +17,7 @@
     <body>
 
         <div class="banner hide-on-mobile hide-on-tablet">
-            <h1><span class="bold">ACTU</span><span class="thin">GEEK</span></h1>
+            <h1><img src="images/logoAGv2.png" alt="logo actu geek" height="150px"></h1>
         </div>
         <nav class="nav hide-on-mobile hide-on-tablet">
             <ul>
